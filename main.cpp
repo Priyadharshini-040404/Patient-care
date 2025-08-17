@@ -49,9 +49,14 @@ int main() {
     if (followUpNeeded == 'y' || followUpNeeded == 'Y') {
         cout << "Arranging follow-up appointment..." << endl;
     }
+    // Step 6: Medication decision (checked in both cases)
+    cout << "Does the patient need medication? (y/n): ";
+    cin >> medicationNeeded;
  
+    if (medicationNeeded == 'y' || medicationNeeded == 'Y') {
+        cout << "Giving patient prescription..." << endl;
+    } 
 
  
     return 0;
 }
- 
