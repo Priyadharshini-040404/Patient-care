@@ -56,5 +56,8 @@ int main() {
     if (medicationNeeded == 'y' || medicationNeeded == 'Y') {
         cout << "Giving patient prescription..." << endl;
     } 
+    // Step 7: Patient leaves
+    cout << "Patient leaves the hospital." << endl;
+    cout << "=== Process Completed ===" << endl;
     return 0;
 }
