@@ -56,7 +56,5 @@ int main() {
     if (medicationNeeded == 'y' || medicationNeeded == 'Y') {
         cout << "Giving patient prescription..." << endl;
     } 
-
- 
     return 0;
 }
